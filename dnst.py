@@ -97,7 +97,7 @@ def get_dns(domain, dns_server, name, timeout=0.5):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python dns_test.py <domain>")
+        print("Usage: python dnst.py <domain>")
         return
 
     domain = sys.argv[1]
